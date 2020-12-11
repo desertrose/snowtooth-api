@@ -1,5 +1,4 @@
 const { ApolloServer, gql } = require("apollo-server");
-const { GraphQLScalarType } = require("graphql");
 
 const lifts = require("./data/lifts.json");
 const trails = require("./data/trails.json");
